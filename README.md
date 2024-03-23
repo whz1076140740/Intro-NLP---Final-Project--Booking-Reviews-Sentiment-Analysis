@@ -10,21 +10,24 @@
  #### Selenium + Beautiful Soup: for human-like scraping, and local htlm elements extraction. 
  #### Regex: for text preprocessing of each html elements.text
 
- ### 2. DataCleaning & DataPreprocessing
+ ### 2. Text Cleaning
  #### clean data, translate to english
+ #### impute category columns for `City` and `Attraction_rank`
+ 
+ ### 3. DataCleaning & Analysis
  #### find reviews relation with months, rating - we descard to impute not-commented reviews with KNN imputing by Rating and Months.
  ##### Rating(conatins too many variance with sentiment score)
  #### after looking months relation and review numbers, we pick 2023 Jan to 2024 Jan.
 
  
- ### 3. Sentiment Analysis
+ ### 4. Sentiment Analysis
  #### Sentiment Analysis on reviews, average by months of that year, imputing not-commented reviews with average sentiment score of that month and city
  #### after looking months relation and Sentiment score, we pick 2023 Jan to 2024 Jan.
 
- ### 4. Diff-in-Diff
+ ### 5. Diff-in-Diff
  #### Diff-in-Diff, treatment = high,low seasonal.
  #### tokenizer + tf-idf, analysis on tf-idf
 
 
- ### 5. Dimensionality Reduction ---- not implemented yet:
+ ### 6. Dimensionality Reduction ---- not implemented yet:
  #### After Reduction, Analysis on the group/topics appeared
