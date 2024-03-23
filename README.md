@@ -27,7 +27,5 @@
  ### 5. Diff-in-Diff
  #### Diff-in-Diff, treatment = high,low seasonal.
  #### tokenizer + tf-idf, analysis on tf-idf
-
-
- ### 6. Dimensionality Reduction ---- not implemented yet:
+ #### Dimensionality Reduction ---- Only have code:
  #### After Reduction, Analysis on the group/topics appeared
