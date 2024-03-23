@@ -26,6 +26,5 @@
  #### tokenizer + tf-idf, analysis on tf-idf
 
 
- Below is not implemented yet:
- ### 5. Dimensionality Reduction
+ ### 5. Dimensionality Reduction ---- not implemented yet:
  #### After Reduction, Analysis on the group/topics appeared
