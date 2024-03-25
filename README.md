@@ -26,6 +26,10 @@
 
  ### 5. Diff-in-Diff
  #### Diff-in-Diff, treatment = high,low seasonal.
+ #### for 3 seaon changes, spring to summer, summer to autumn, autumn to fall, From Jan 2023 to Jan 2024
+
+ 
+ ### 6. NLP analysis: Tf-Idf & LDA analysis
  #### tokenizer + tf-idf, analysis on tf-idf
- #### Dimensionality Reduction ---- Only have code:
+ #### Dimensionality Reduction ----
  #### After Reduction, Analysis on the group/topics appeared
